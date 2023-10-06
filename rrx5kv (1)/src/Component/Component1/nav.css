@@ -1,0 +1,208 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+:root {
+  --hovertextcolor: purple;
+}
+nav {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 75px;
+  outline: 1px solid #cccccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 450;
+  background-color: white;
+}
+.logo {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "calibri";
+  color: #4d0257;
+  line-height: 1.5px;
+  letter-spacing: 0.5px;
+  align-items: center;
+  margin-top: 6px;
+  padding: 0.5px;
+}
+.searchbox {
+  width: 430px;
+  outline: 1px solid #ccc;
+  display: flex;
+  margin-left: 20%;
+  border-radius: 5px;
+  align-items: center;
+  position: absolute;
+}
+.inputsearch {
+  width: 195%;
+  height: 45px;
+  font-size: 18px;
+  font-family: "calibri";
+  margin-left: 5px;
+  border: none;
+  outline: none;
+}
+.searchicon img {
+  margin-left: 3%;
+  height: 20px;
+  margin-right: 5px;
+}
+.searchrecentmodel {
+  position: absolute;
+  left: 170px;
+  top: 80px;
+  bottom: 0;
+  height: 400px;
+  width: 22%;
+  background-color: red;
+  display: none;
+}
+.inputsearch:focus-within .inputsearch {
+  display: block;
+}
+.from {
+  width: 100%;
+}
+.headerright {
+  display: flex;
+  position: relative;
+  margin-right: 90px;
+}
+.mobileicon img {
+  width: 20px;
+}
+.downloadcontain {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  top: 100px;
+}
+.downloadcontain p {
+  font-size: 17px;
+  font-weight: 900px;
+  margin: 0;
+  padding: 0;
+}
+.downloadcontain p:hover {
+  color: var(--hoverTextColor);
+  color: purple;
+  cursor: pointer;
+}
+.dbtn {
+  display: block;
+  width: 150px;
+}
+.dbtn img {
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  justify-content: space-between;
+}
+.dbtn1 img {
+  margin: 10px;
+  width: 150px;
+  height: 50px;
+  justify-content: space-between;
+}
+.downloadhover {
+  width: 30%;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  top: 80px;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.3);
+  display: none;
+}
+.downloadcontain:hover .downloadhover {
+  display: block;
+}
+.downloadhover p {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.seller {
+  padding: 0px 35px;
+  margin-top: 20px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  font-size: 17px;
+}
+.seller p {
+  font-size: 17px;
+}
+.profilecont {
+  display: flex;
+  align-items: center;
+}
+.profile {
+  display: flex;
+  margin-top: 1px;
+  padding: 0px 30px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.profile:hover {
+  color: var(--hoverTextColor);
+}
+.cart:hover {
+  color: var(--hoverTextColor);
+}
+.cart {
+  display: flex;
+  margin-top: 3px;
+  padding: 0px 30px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 70%;
+}
+.profile p {
+  font-size: 17px;
+}
+.cart p {
+  font-size: 17px;
+}
+.picon img {
+  width: 20px;
+}
+.cicon img {
+  width: 25px;
+}
+.app {
+  position: absolute;
+  left: 45%;
+  text-align: center;
+  top: 25px;
+}
+.app:hover {
+  color: var(--hovertextcolor);
+}
+.become {
+  position: absolute;
+  right: 30%;
+}
+.profile {
+  position: absolute;
+  left: 75%;
+}
+.profile:hover {
+  color: var(--hovertextcolor);
+}
+.card {
+  position: absolute;
+  left: 85%;
+}
+.downloadbtn {
+  display: block;
+  width: 100px;
+}
+.downloadhover {
+  position: absolute;
+  margin: 10px;
+}
